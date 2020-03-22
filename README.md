@@ -1,4 +1,6 @@
-# 码志
+本blog是从码志处fork,原文指引如下
+
+## 码志
 
 我的个人博客：<https://mazhuang.org>，欢迎 Star 和 Fork。
 
