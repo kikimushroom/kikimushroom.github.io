@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: kikimushroom.github.io
+url: https://kikimushroom.github.io/
 date_format: "ordinal"
 title: 祖安蘑菇
 subtitle: "公众号：蘑菇说了什么"
@@ -87,7 +87,7 @@ repository: kikimushroom/kikimushroom.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: 
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
@@ -122,4 +122,4 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: 
