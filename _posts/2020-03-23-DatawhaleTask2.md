@@ -1,3 +1,10 @@
+---
+layout: post
+title: Datawhale Task2 学习笔记
+categories: Python
+description: 交作业交作业
+keywords: 
+---
 
 
 ```python
