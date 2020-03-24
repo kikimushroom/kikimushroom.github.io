@@ -9,16 +9,6 @@ keywords:
 **本次进行的主要是数据的分析，在选取模型回归之前，我们首先要对手头上的数据进行一次“体检”，我们需要识别出数据的规律与特点。笼统来看，数据分析除了需要对数据进行常见的描述性统计之外（mean、std、medium），也要发掘数据与数据之的关联度。**
 
 
-```python
-import warnings
-warnings.filterwarnings('ignore')
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import missingno as msno
-
 
 ```python
 Train_data = pd.read_csv('/Users/yangjingchi/Desktop/data/train123.csv', sep=" ")
