@@ -6,6 +6,8 @@ description: 交作业交作业
 keywords: 
 ---
 
+**本次进行的主要是数据的分析，在选取模型回归之前，我们首先要对手头上的数据进行一次“体检”，我们需要识别出数据的规律与特点。笼统来看，数据分析除了需要对数据进行常见的描述性统计之外（mean、std、medium），也要发掘数据与数据之的关联度。**
+
 
 ```python
 import warnings
@@ -17,7 +19,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import missingno as msno
 
-本次进行的主要是数据的分析，在选取模型回归之前，我们首先要对手头上的数据进行一次“体检”，我们需要识别出数据的规律与特点。笼统来看，数据分析除了需要对数据进行常见的描述性统计之外（mean、std、medium），也要发掘数据与数据之的关联度。
 
 ```python
 Train_data = pd.read_csv('/Users/yangjingchi/Desktop/data/train123.csv', sep=" ")
@@ -588,7 +589,7 @@ Train_data.describe()
 
 
 
-###查看缺失值
+#查看缺失值#
 
 
 ```python
@@ -780,7 +781,7 @@ del Test_data["seller"]
 del Test_data["offerType"]
 ```
 
-###  了解预测值的分布
+##  了解预测值的分布
 
 
 ```python
@@ -821,9 +822,9 @@ sns.distplot(y, kde=False, fit=st.lognorm)
 ![png](output_18_4.png)
 
 
-
-```python
 ## 2) 查看skewness and kurtosis
+```python
+
 sns.distplot(Train_data['price']);
 print("Skewness: %f" % Train_data['price'].skew())
 print("Kurtosis: %f" % Train_data['price'].kurt())
@@ -973,7 +974,7 @@ plt.show()
 ![png](output_24_0.png)
 
 
-2.3.6 特征分为类别特征和数字特征，并对类别特征查看unique分布
+## 特征分为类别特征和数字特征，并对类别特征查看unique分布
 
 
 ```python
