@@ -683,7 +683,7 @@ missing.plot.bar()
 
 
 
-![png](output_10_1.png)
+![png](https://github.com/kikimushroom/kikimushroom.github.io/blob/master/images/py/output_10_1.png)
 
 
 
@@ -703,7 +703,7 @@ missing.plot.bar()
 
 
 
-![png](output_11_1.png)
+![png](https://github.com/kikimushroom/kikimushroom.github.io/blob/master/images/py/output_11_1.png)
 
 
 
