@@ -703,7 +703,7 @@ missing.plot.bar()
 
 
 
-![png](https://github.com/kikimushroom/kikimushroom.github.io/blob/master/images/py/output_11_1.png)
+!(https://github.com/kikimushroom/kikimushroom.github.io/blob/master/images/py/output_11_1.png)
 
 
 
