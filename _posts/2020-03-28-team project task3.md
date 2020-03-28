@@ -111,7 +111,7 @@ y.plot.hist()
 
 
 
-![png](output_8_1.png)
+![png](https://github.com/kikimushroom/kikimushroom.github.io/blob/master/images/py/task3/output_8_1.png?raw=true)
 
 
 
